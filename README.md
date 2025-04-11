@@ -1,6 +1,6 @@
 # Artigo: Visualização Interativa do Protocolo BB84 para Ensino de Criptografia Quântica
 
-**Autores:** Walter H.A. Santos, Kauã O. S. Menezes, Lucas W. Santos, Marcos V. S. Morais (Universidade Federal de Sergipe - UFS)
+**Autores:** Walter H.A. Santos, Kauã O. S. Menezes, Lucas W. Santos, Marcos V. S. Morais, Antônio J. A. Neto (Universidade Federal de Sergipe - UFS)
 
 **Artigo Associado:** Visualização Interativa do Protocolo BB84 para Ensino de Criptografia Quântica (SBSeg'25)
 *   **Link/DOI do Artigo:** [!-- LINK PARA O ARTIGO --]
