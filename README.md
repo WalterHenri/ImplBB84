@@ -5,16 +5,13 @@
 **Artigo Associado:** Visualização Interativa do Protocolo BB84 para Ensino de Criptografia Quântica (SBSeg'25)
 *   **Link/DOI do Artigo:** [!-- LINK PARA O ARTIGO --]
 
-<!-- Badges de Avaliação de Artefatos (Placeholders) -->
-[![ACM Artifact - Available](https://img.shields.io/badge/ACM%20Artifact-Available-green?style=flat-square)](https://www.acm.org/publications/policies/artifact-review-badging)
-[![ACM Artifact - Functional](https://img.shields.io/badge/ACM%20Artifact-Functional-orange?style=flat-square)](https://www.acm.org/publications/policies/artifact-review-badging)
-<!-- Adicione 'Reusable' e/ou 'Reproduced' se aplicável após avaliação -->
-
 ---
 
 ## 📜 Visão Geral (Overview)
 
 Este repositório contém o artefato associado ao artigo "Visualização Interativa do Protocolo BB84 para Ensino de Criptografia Quântica", submetido ao SBSeg'25.
+
+O artigo apresenta uma visualização interativa do protocolo de distribuição de chaves quânticas BB84, implementada com Python, Qiskit e Streamlit. O objetivo é fornecer uma ferramenta didática para o ensino de criptografia quântica, permitindo a simulação do protocolo, incluindo a presença de um espião, e a observação do impacto na Taxa de Erro Quântico (QBER). O artefato associado permite a replicação dos resultados experimentais apresentados, contribuindo para a compreensão prática da segurança em QKD.
 
 O artefato consiste em uma implementação do protocolo de distribuição de chaves quânticas (QKD) BB84, utilizando Python com as bibliotecas Qiskit para simulação quântica e Streamlit para criar uma interface de visualização interativa.
 
@@ -30,7 +27,7 @@ O artefato consiste em uma implementação do protocolo de distribuição de cha
 
 ---
 
-## 🚀 Começando (Getting Started)
+## 🚀 Começando
 
 Siga estes passos para configurar e executar a visualização interativa:
 
@@ -54,7 +51,7 @@ Siga estes passos para configurar e executar a visualização interativa:
 
 ---
 
-## 🔧 Requisitos (Requirements)
+## 🔧 Requisitos 
 
 ### Hardware
 *   Computador pessoal padrão.
@@ -92,3 +89,19 @@ A aplicação `streamlit run app.py` permite a exploração interativa do protoc
 Este arquivo contém os scripts ou comandos exatos e os parâmetros necessários para gerar os dados que fundamentam as conclusões do artigo.
 
 ---
+
+## 📁 Estrutura do Repositório
+ImplBB84/ </br>
+├── ARTEFATO.md descrever</br>
+├── LICENSE </br>
+├── README.md  </br>
+├── app.py </br>
+├── main.py  </br>
+└── requirements.txt </br>
+
+---
+
+## 📄 Licença (License)
+
+Este projeto é licenciado sob os termos da **Licença MIT**. Veja o arquivo [`LICENSE`](LICENSE) para mais detalhes.
+
