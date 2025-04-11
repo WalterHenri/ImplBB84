@@ -1,4 +1,4 @@
-# Artefato: Visualização Interativa do Protocolo BB84 para Ensino de Criptografia Quântica
+# Artigo: Visualização Interativa do Protocolo BB84 para Ensino de Criptografia Quântica
 
 **Autores:** Walter H.A. Santos, Kauã O. S. Menezes, Lucas W. Santos, Marcos V. S. Morais (Universidade Federal de Sergipe - UFS)
 
@@ -92,7 +92,6 @@ Este arquivo contém os scripts ou comandos exatos e os parâmetros necessários
 
 ## 📁 Estrutura do Repositório
 ImplBB84/ </br>
-├── ARTEFATO.md descrever</br>
 ├── LICENSE </br>
 ├── README.md  </br>
 ├── app.py </br>
