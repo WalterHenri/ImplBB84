@@ -1,58 +1,94 @@
-# Visualização do Protocolo de Distribuição de Chaves Quânticas BB84
+# Artefato: Visualização Interativa do Protocolo BB84 para Ensino de Criptografia Quântica
 
-Esta aplicação interativa fornece uma visualização dinâmica e educativa do Protocolo de Distribuição de Chaves Quânticas BB84. Ela permite que os usuários compreendam os princípios fundamentais da criptografia quântica através de uma interface envolvente e visual.
+**Autores:** Walter H.A. Santos, Kauã O. S. Menezes, Lucas W. Santos, Marcos V. S. Morais (Universidade Federal de Sergipe - UFS)
 
-## Recursos
+**Artigo Associado:** Visualização Interativa do Protocolo BB84 para Ensino de Criptografia Quântica (SBSeg'25)
+*   **Link/DOI do Artigo:** [!-- LINK PARA O ARTIGO --]
 
-- **Simulação Interativa do Protocolo**: Ajuste parâmetros como quantidade de bits, taxa de erro do canal e presença de espião
-- **Visualização Passo a Passo**: Percorra cada etapa do protocolo BB84 com explicações claras
-- **Exibição de Circuitos Quânticos**: Veja os circuitos quânticos reais usados em diferentes cenários
-- **Análise de Resultados em Tempo Real**: Analise métricas de segurança e compare cenários com/sem espionagem
-- **Conteúdo Educativo**: Aprenda sobre princípios de criptografia quântica enquanto interage com a simulação
+<!-- Badges de Avaliação de Artefatos (Placeholders) -->
+[![ACM Artifact - Available](https://img.shields.io/badge/ACM%20Artifact-Available-green?style=flat-square)](https://www.acm.org/publications/policies/artifact-review-badging)
+[![ACM Artifact - Functional](https://img.shields.io/badge/ACM%20Artifact-Functional-orange?style=flat-square)](https://www.acm.org/publications/policies/artifact-review-badging)
+<!-- Adicione 'Reusable' e/ou 'Reproduced' se aplicável após avaliação -->
 
-## Instalação
+---
 
-1. Clone este repositório:
-```bash
-git clone <url-do-repositório>
-cd <diretório-do-repositório>
-```
+## 📜 Visão Geral (Overview)
 
-2. Instale as dependências necessárias:
-```bash
-pip install -r requirements.txt
-```
+Este repositório contém o artefato associado ao artigo "Visualização Interativa do Protocolo BB84 para Ensino de Criptografia Quântica", submetido ao SBSeg'25.
 
-## Uso
+O artefato consiste em uma implementação do protocolo de distribuição de chaves quânticas (QKD) BB84, utilizando Python com as bibliotecas Qiskit para simulação quântica e Streamlit para criar uma interface de visualização interativa.
 
-1. Execute a aplicação Streamlit:
-```bash
-streamlit run app.py
-```
+**Objetivo Principal do Artefato:**
 
-2. Abra seu navegador e acesse o endereço mostrado no terminal (normalmente http://localhost:8501)
+*   Fornecer uma ferramenta didática e interativa para o ensino e compreensão do protocolo BB84.
+*   Permitir a simulação do protocolo, incluindo a possibilidade de simular a presença de um espião (Eve).
+*   Demonstrar visualmente como a presença de um espião afeta a Taxa de Erro Quântico (QBER), um indicador chave da segurança do protocolo.
+*   Permitir a replicação dos resultados apresentados na Tabela 1 do artigo associado.
 
-3. Use a barra lateral para definir parâmetros e executar simulações
+**Para instruções detalhadas sobre como replicar os resultados experimentais do artigo (Tabela 1), consulte o arquivo:**
+➡️ **[`ARTEFATO.md`](ARTEFATO.md)** ⬅️
 
-4. Navegue pelas diferentes abas e etapas para explorar o protocolo BB84
+---
 
-## Requisitos
+## 🚀 Começando (Getting Started)
 
-- Python 3.8 ou superior
-- Veja requirements.txt para todas as dependências
+Siga estes passos para configurar e executar a visualização interativa:
 
-## Como Funciona
+1.  **Clone o Repositório:**
+    ```bash
+    git clone https://github.com/WalterHenri/ImplBB84.git
+    cd ImplBB84
+    ```
 
-A aplicação simula o protocolo BB84, introduzido por Charles Bennett e Gilles Brassard em 1984. Este protocolo permite que duas partes (Alice e Bob) gerem uma chave secreta aleatória compartilhada que pode ser usada para comunicação segura. A simulação demonstra:
+2.  **Instale as Dependências:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *Isso instalará Qiskit, Streamlit, NumPy e outras bibliotecas necessárias.*
 
-1. Como propriedades quânticas permitem a distribuição segura de chaves
-2. Como tentativas de espionagem podem ser detectadas através dos princípios da mecânica quântica
-3. Os efeitos do ruído do canal na segurança do protocolo
+3.  **Execute a Aplicação Interativa:**
+    ```bash
+    streamlit run app.py
+    ```
+    *Isso abrirá a interface da aplicação no seu navegador web padrão.*
 
-## Para Apresentações Acadêmicas
+---
 
-Esta ferramenta é projetada especificamente para apresentações acadêmicas, com visualizações claras e controles intuitivos que facilitam a demonstração de conceitos de criptografia quântica para públicos com diferentes níveis de conhecimento.
+## 🔧 Requisitos (Requirements)
 
-## Licença
+### Hardware
+*   Computador pessoal padrão.
+*   Mínimo de 4GB de RAM recomendado (simulações maiores podem exigir mais).
+*   Acesso à Internet (para clonar o repositório e instalar dependências via pip).
 
-[Licença MIT](LICENSE) 
+### Software
+*   **Sistema Operacional:**
+    *   Testado em: Windows 10 e 11.
+*   **Python:** Versão 3.13.x ou superior.
+*   **Gerenciador de Pacotes:** `pip` (geralmente incluído com Python).
+*   **Dependências Principais (veja `requirements.txt` para a lista completa e versões exatas):**
+    *   `qiskit`: Framework para computação quântica.
+    *   `qiskit-aer`: Simulador de alto desempenho para Qiskit.
+    *   `streamlit`: Framework para criação de aplicações web interativas com Python.
+    *   `numpy`: Biblioteca para computação numérica.
+    *   `matplotlib`: Biblioteca para geração de gráficos (usada internamente pelo Qiskit/Streamlit).
+
+---
+
+## 📈 Workflow de Avaliação e Reprodução de Resultados
+
+A aplicação `streamlit run app.py` permite a exploração interativa do protocolo BB84. Você pode:
+
+1.  Definir o número de qubits a serem transmitidos.
+2.  Ativar ou desativar a simulação de um espião (Eve).
+3.  Observar as bases escolhidas por Alice e Bob.
+4.  Visualizar os qubits enviados e medidos.
+5.  Verificar a chave peneirada resultante.
+6.  Analisar a Taxa de Erro Quântico (QBER) calculada.
+
+**Para reproduzir especificamente os resultados da Tabela 1 do nosso artigo (QBER e tamanho médio da chave com/sem espião), siga as instruções passo a passo detalhadas em:**
+➡️ **[`ARTEFATO.md`](ARTEFATO.md)** ⬅️
+
+Este arquivo contém os scripts ou comandos exatos e os parâmetros necessários para gerar os dados que fundamentam as conclusões do artigo.
+
+---
